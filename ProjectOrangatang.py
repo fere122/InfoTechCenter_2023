@@ -3,6 +3,11 @@ Our Welcome Screen will start our program letting
 drivers know that the InfoTech Center 2023 is loading
 """
 
-print("\nWelcome - InfoTech Center 2023")
+#Import Libraries Here
+import time
 
-print("\nInfoTech Center 2023 is loading...")
+timeToSleep = 2
+
+print("\nWelcome - InfoTech Center 2023")
+time.sleep(timeToSleep)
+print("InfoTech Center 2023 is loading...")
