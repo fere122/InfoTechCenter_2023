@@ -14,8 +14,10 @@ def gasLevelGauge():
 # Function with a list of GasStations
 def listOfGasStations():
     gasStations = ["Shell","Speedway","Exxon","Meijer","Costco","Marathon","BP","Circle K","Wesco"]
-    gasStationnearby = random.choice(gasStations)
-    return gasStationnearby
+    gasStationNearby = random.choice(gasStations)
+    return gasStationNearby
+    
+listOfGasStations()
 
 #Funtion will call the gaLevelGauge to determine gal level and find a close gas station if low
 def gasLevelAlert():
