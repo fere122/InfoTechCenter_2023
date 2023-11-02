@@ -7,7 +7,8 @@ drivers know that the InfoTech Center 2023 is loading
 #Import Libraries Here
 import time
 import sys
-
+import random
+from time import sleep
 timeToSleep = 2
 
 print("\nWelcome - InfoTech Center 2023\n")
@@ -30,12 +31,11 @@ while x != 20:
 
 
 
-print("***********************************************")
-print("Gasoline Branch\n\n")
-
+print("\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n")
+print(" checking current gas levels\n\n")
+sleep(1)
 # Import Libraries Here
-import random
-from time import sleep
+
 
 # Function that list random gas stations, and Return its value
 def gasLevelGauge():
