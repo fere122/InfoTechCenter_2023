@@ -17,7 +17,7 @@ def listOfGasStations():
     gasStationNearby = random.choice(gasStations)
     return gasStationNearby
 
-#Funtion will call the gaLevelGauge to determine gal level and find a close gas station if low
+#Funtion will call the gasLevelGauge to determine gal level and find a close gas station if low
 def gasLevelAlert():
     milesToGasStationLow = round(random.uniform(1,25),1)
     milesToGasStationquarterTank = round(random.uniform(25.1, 50), 1)
